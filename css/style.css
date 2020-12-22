@@ -35,7 +35,8 @@ header {
   text-align: center;
   background-image: url('../img/office-865091_1920.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: top 180% right 50%;
+  background-attachment: fixed;
   color: white;
 }
 
