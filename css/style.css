@@ -60,6 +60,12 @@ main {
   max-width: 1140px;
 }
 
+
+section h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .course {}
 
 .course .title {}
