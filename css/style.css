@@ -115,5 +115,18 @@ article {
 }
 
 footer {
+  text-align: right;
   padding: 1em;
+  background-color: black;
+  color: white;
+  list-style-type: none;
+}
+
+a {
+  color: rgb(193, 230, 30);
+  transition: .4s;
+}
+
+a:hover {
+  opacity: 0.6;
 }
