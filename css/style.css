@@ -45,6 +45,10 @@ header section {
   max-width: 640px;
 }
 
+main section:not(:last-child) {
+  border-bottom: 1px solid gray;
+}
+
 header img {
   width: 150px;
   height: 150px;
@@ -73,6 +77,10 @@ article div.title {
 
 }
 
+article {
+  padding: 20px 0;
+}
+
 .course {
   display: -ms-flexbox;
   display: flex;
@@ -83,6 +91,18 @@ article div.title {
 .course .title {
   flex-shrink: 0;
   flex-basis: 33%;
+}
+
+.skills {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.skills .knowledge {
+  flex-shrink: 0;
+  flex-basis: 50%;
 }
 
 .course .descrition {
