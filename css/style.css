@@ -35,7 +35,7 @@ header {
   text-align: center;
   background-image: url('../img/office-865091_1920.jpg');
   background-size: cover;
-  background-position: top 180% right 50%;
+  background-position: top 170% right 50%;
   background-attachment: fixed;
   color: white;
 }
@@ -45,9 +45,6 @@ header section {
   max-width: 640px;
 }
 
-main section:not(:last-child) {
-  border-bottom: 1px solid gray;
-}
 
 header img {
   width: 150px;
@@ -60,12 +57,28 @@ header h1 {
   text-transform: uppercase;
 }
 
+header a i {
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: 7px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 main {
   max-width: 1140px;
 }
 
+main section:not(:last-child) {
+  border-bottom: 1px solid gray;
+}
 
 section h3 {
+  font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -73,7 +86,7 @@ section h3 {
 article div.title {
   font-weight: bold;
   text-transform: uppercase;
-  color: #509e98;
+  color: black;
 
 }
 
@@ -86,6 +99,7 @@ article {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  margin-top: 10px;
 }
 
 .course .title {
@@ -125,6 +139,7 @@ footer {
 a {
   color: rgb(193, 230, 30);
   transition: .4s;
+  text-decoration: none;
 }
 
 a:hover {
