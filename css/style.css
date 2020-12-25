@@ -34,10 +34,12 @@ header {
   padding: 2em;
   text-align: center;
   background-image: url('../img/office-865091_1920.jpg');
-  background-size: cover;
-  background-position: top 170% right 50%;
+  /* background-size: center; */
+  background-position: top 110% right 45%;
   background-attachment: fixed;
+  /* background-repeat: no-repeat; */
   color: white;
+  opacity: 0.9;
 }
 
 header section {
@@ -50,11 +52,21 @@ header img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  background-color: white;
 }
 
 header h1 {
   margin: 1em 0;
   text-transform: uppercase;
+}
+
+header a i {
+  transition: .5s;
+}
+
+header a:hover i {
+  transform: scale(1.5);
+  color: rgb(193, 230, 30);
 }
 
 header a i {
@@ -87,6 +99,7 @@ article div.title {
   font-weight: bold;
   text-transform: uppercase;
   color: black;
+  padding-left: 10px;
 
 }
 
