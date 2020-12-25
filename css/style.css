@@ -22,6 +22,7 @@ article {
 section {
   margin: 1em;
   padding: 1em;
+  transition: 1s;
 }
 
 header,
@@ -188,4 +189,26 @@ span {
 section:nth-of-type(3)>article,
 section:nth-of-type(4)>article {
   padding-left: 30px;
+}
+
+section.edu {
+  transform: translateX(-100vw);
+}
+
+section.skill,
+section.exp {
+  transform: translateX(100vw);
+}
+
+section.exp {
+  transform: scale(0);
+}
+
+section.skill.active,
+section.edu.active {
+  transform: translateX(0);
+}
+
+section.exp.active {
+  transform: scale(1);
 }
