@@ -84,6 +84,7 @@ header a i {
 
 main {
   max-width: 1140px;
+  overflow: hidden;
 }
 
 main section:not(:last-child) {
@@ -211,4 +212,59 @@ section.edu.active {
 
 section.exp.active {
   transform: scale(1);
+}
+
+@media only screen and (max-width: 1367px) {
+
+  section.edu {
+    transform: translateX(0);
+  }
+
+  section.skill,
+  section.exp {
+    transform: translateX(0);
+  }
+
+  section.exp {
+    transform: scale(1);
+  }
+
+  main {
+    max-width: 100vw;
+  }
+
+  header {
+    background-position: left 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+
+  header {
+    background-position: top 20% left 10%;
+    background-attachment: scroll;
+  }
+
+  .course {
+    display: block;
+  }
+
+  .course .title,
+  .course .descrition {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .skills {
+    display: block;
+  }
+
+  .skills .column {
+    max-width: 100%;
+  }
+
+  h4 {
+    margin-top: 15px;
+  }
 }
