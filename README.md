@@ -19,6 +19,8 @@ In final version of page:
 ## Demo
 Check demo here: [Template CV](https://gamattowicz.github.io/CV_webpage/)
 
+<img alt="Slider screen" src="https://github.com/Gamattowicz/Slider/blob/main/imag/resume_screen.png"/>
+
 ## Status 
 Project is finished.
 
